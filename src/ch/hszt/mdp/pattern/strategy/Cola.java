@@ -5,9 +5,9 @@ public class Cola implements Drinks {
 	@Override
 	public String prepare(Boolean sugar) {
 		if(!sugar) {
-			return "Cola Zero";
+			return "Cappuccino Zero";
 		}
-		return "Cola normal";
+		return "Cappuccino normal";
 	}
 
 }
